@@ -1,0 +1,15 @@
+jeevanhr@Jeevans-MacBook-Air AIRTRIBE % ls
+Object_Oreinted assignment      dsa
+jeevanhr@Jeevans-MacBook-Air AIRTRIBE % cd assignment/library_manager 
+jeevanhr@Jeevans-MacBook-Air library_manager % ls
+__pycache__     main.py         models.py
+jeevanhr@Jeevans-MacBook-Air library_manager % python3 main.py 
+Alice borrowed: Book: Python 101 by A. Rao (ID 1)
+Could not borrow: 'Python 101' is not available.
+Borrow limit error: Bob has reached the borrow limit of 1
+Return error: Bob cannot return an item that is not borrowed
+Book: Python 101 by A. Rao (ID 1) -> late fee for 3 days: Rs 6
+Magazine: Tech Monthly, Issue 15 -> late fee for 3 days: Rs 3
+DVD: Inception, Duration 148 minutes -> late fee for 3 days: Rs 15
+Total items created: 3
+jeevanhr@Jeevans-MacBook-Air library_manager % 
